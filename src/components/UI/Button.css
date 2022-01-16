@@ -1,0 +1,23 @@
+.styling {
+  background-color: #f9ab65;
+  color: white;
+  border: 1px solid #f9ab65;
+  border-radius: 25px;
+  padding: 2%;
+  margin-top: 4%;
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.styling:hover,
+.styling:focus,
+.styling:active {
+  transform: scale(1.1);
+}

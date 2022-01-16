@@ -1,0 +1,17 @@
+.skills {
+  background-color: #1b3d47;
+  height: 50vh;
+}
+
+.skills__title {
+  padding-left: 7vh;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  font-size: 2.4rem;
+  color: ghostwhite;
+}
+
+.skills__content {
+  padding-left: 7vh;
+  color: #7c8c91;
+}

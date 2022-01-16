@@ -1,0 +1,34 @@
+.parent {
+  height: 87vh;
+  width: 100%;
+  margin: auto;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  height: 12%;
+}
+.content {
+  height: 78%;
+}
+.row {
+  height: 100%;
+}
+.title {
+  font-size: 4rem;
+}
+.description {
+  color: rgba(235, 232, 232, 0.514);
+}
+.left {
+  margin: auto;
+}
+.title-img {
+  width: 100%;
+}
+.navLink:hover {
+  color: black;
+  text-decoration: none;
+}
