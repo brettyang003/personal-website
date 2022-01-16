@@ -1,0 +1,16 @@
+.modal__header {
+  background-color: #37546a;
+  border: 1px #37546a solid;
+}
+.modal__title {
+  font-size: 3rem;
+}
+.modal__viewer {
+  background-color: #37546a;
+  width: 100%;
+  height: 70vh;
+}
+.modal__body,
+.modal__footer {
+  background-color: #37546a;
+}

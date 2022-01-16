@@ -1,26 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import "./Navbar.css";
-import logo from "../../assets/universityLogo.png";
-import Button from "../UI/Button";
 import background from "../../assets/background.jpeg";
+import Modal from "../ResumeModal/Modal";
 
 const NavBar = (props) => {
+  const [showModal, setShowModal] = useState(false);
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
+
   return (
     <div style={{ backgroundImage: `url(${background})` }} className="parent">
+      <Modal show={showModal} handleClose={handleClose} />
       <nav class="navbar navbar-expand-md navbar-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto ">
             <li class="nav-item ">
@@ -51,9 +43,10 @@ const NavBar = (props) => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               ultrices lorem at nisi eleifend, et ultricies augue tristique.
             </p>
-            <Button content="Download" />
+            <button className="styling shadow-lg " onClick={handleShow}>
+              Resume
+            </button>
           </div>
-          <div class="col-lg-5 align-self-center d-flex justify-content-start"></div>
         </div>
       </Container>
     </div>
