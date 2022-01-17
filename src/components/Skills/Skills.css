@@ -1,17 +1,32 @@
 .skills {
   background-color: #1b3d47;
-  height: 50vh;
+  padding-left: 7vh;
+  padding-bottom: 4%;
 }
 
 .skills__title {
-  padding-left: 7vh;
   padding-bottom: 4%;
   padding-top: 3%;
   font-size: 2.4rem;
   color: ghostwhite;
 }
 
-.skills__content {
-  padding-left: 7vh;
-  color: #7c8c91;
+.skills__parent,
+.skills__last {
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.languages {
+  background-color: #d07d2f;
+  padding: 1%;
+}
+
+.skillLevel {
+  background-color: #4b6c78;
+  padding: 1%;
+}
+
+.skillDisparity {
+  background-color: grey;
 }

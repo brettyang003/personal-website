@@ -1,8 +1,6 @@
 .about {
   background-color: #1b3d47;
-  height: 50vh;
 }
-
 .about__title {
   padding-left: 7vh;
   padding-bottom: 4%;
@@ -12,6 +10,7 @@
 }
 
 .about__content {
+  margin: 0%;
   padding-left: 7vh;
   padding-right: 7.4vh;
   color: #7c8c91;

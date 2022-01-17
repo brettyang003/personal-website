@@ -10,7 +10,10 @@ const NavBar = (props) => {
   const handleShow = () => setShowModal(true);
 
   return (
-    <div style={{ backgroundImage: `url(${background})` }} className="parent">
+    <div
+      style={{ backgroundImage: `url(${background})`, zIndex: "100" }}
+      className="parent"
+    >
       <Modal show={showModal} handleClose={handleClose} />
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -40,13 +43,17 @@ const NavBar = (props) => {
             <span className="title">Hello, I'm Brett</span>
             <span class="input-cursor"></span>
             <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              ultrices lorem at nisi eleifend, et ultricies augue tristique.
+              Welcome to my personal website/portfolio! This website was made
+              with HTML/CSS and React.
             </p>
             <button className="styling shadow-lg " onClick={handleShow}>
               Resume
             </button>
           </div>
+          <div
+            style={{ backgroundColor: "transparent" }}
+            className="col-lg-5"
+          ></div>
         </div>
       </Container>
     </div>

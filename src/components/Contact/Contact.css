@@ -1,0 +1,23 @@
+.contact {
+  background-color: #1b3d47;
+  padding-left: 7vh;
+}
+
+.contact__title {
+  padding-bottom: 4%;
+  padding-top: 3%;
+  font-size: 2.4rem;
+  color: ghostwhite;
+}
+
+.contact__parent {
+  margin-bottom: 3%;
+  width: 100%;
+}
+.contact__content {
+  text-align: center;
+  margin: auto;
+}
+.contact__logo {
+  margin: 2%;
+}

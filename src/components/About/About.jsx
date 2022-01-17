@@ -6,17 +6,15 @@ const About = (props) => {
     <div className="about">
       <h2 className="about__title">About Me</h2>
       <p className="about__content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices
-        lorem at nisi eleifend, et ultricies augue tristique. Pellentesque
-        habitant morbi tristique senectus et netus et malesuada fames ac turpis
-        egestas. Nulla laoreet vitae sapien vitae condimentum. Fusce euismod,
-        velit et dapibus vehicula, lacus erat faucibus sapien, vel maximus nulla
+        Hi, my name is Brett and I'm a computer engineering student at the
+        University of Toronto. I have a big passion for programming, always
+        finding myself either trying to learn the newest technology or working
+        on a side project. I'm most proficient in Javascript along with its
+        frameworks and libraries including React and Express (Node.js). I also
+        have a lot of experience with HTML/CSS and MongoDB.
       </p>
       <p className="about__content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices
-        lorem at nisi eleifend, et ultricies augue tristique. Pellentesque
-        habitant morbi tristique senectus et netus et malesuada fames ac turpis
-        egestas.
+        Outside of school and coding, I enjoy playing tennis and chess.
       </p>
     </div>
   );
