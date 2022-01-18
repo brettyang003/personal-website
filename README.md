@@ -1,3 +1,3 @@
 # personal-website
 
-Go to <a href = "brettyang.ca">brettyang.ca</a>
+[Click here to visit the website](https://brettyang.ca)
