@@ -7,13 +7,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.nav__content {
+  padding-top: 10vw;
+  padding-left: 7vh;
+}
 .navbar {
   height: 12%;
 }
-.content {
-  height: 78%;
-}
-.row {
+w {
   height: 100%;
 }
 .title {

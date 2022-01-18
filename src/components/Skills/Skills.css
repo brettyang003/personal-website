@@ -18,15 +18,17 @@
 }
 
 .languages {
-  background-color: #d07d2f;
+  background-color: #1a6b84;
+  color: #f1f1e6;
   padding: 1%;
+  font-size: 1rem;
 }
 
 .skillLevel {
-  background-color: #4b6c78;
+  background-color: #105a7b;
   padding: 1%;
 }
 
 .skillDisparity {
-  background-color: grey;
+  background-color: #8dafbb;
 }

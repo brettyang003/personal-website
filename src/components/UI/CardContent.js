@@ -8,3 +8,8 @@ export const languages = [
   "React, Node.js, MongoDB (Mongoose), Express, Bootstrap ",
   "Node, Express, HTML/CSS, Bootstrap",
 ];
+export const links = [
+  "https://github.com/brettyang003/Bookmarker",
+  "https://github.com/brettyang003/marketplace",
+  "https://github.com/brettyang003/email-signup",
+];
