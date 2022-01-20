@@ -1,11 +1,10 @@
 .parent {
-  height: 87vh;
-  width: 100%;
   margin: auto;
-  background-color: #cccccc;
+  background-image: url(/Users/brettyang/Documents/personal-website/src/assets/background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5%;
 }
 .nav__content {
   padding-top: 10vw;
@@ -14,14 +13,14 @@
 .navbar {
   height: 12%;
 }
-w {
-  height: 100%;
-}
-.title {
+
+.nav__title {
+  width: 70%;
   font-size: 4rem;
 }
-.description {
-  color: rgba(235, 232, 232, 0.514);
+.nav__description {
+  width: 50%;
+  font-size: 2vw;
 }
 .left {
   margin: auto;
@@ -55,4 +54,21 @@ w {
 .styling:focus,
 .styling:active {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 850px) {
+  /*Same but for less*/
+  .styling {
+    font-size: 1rem;
+  }
+  .nav__content {
+    padding-top: 10vw;
+    padding-left: 7%;
+  }
+  .nav__title {
+    font-size: 2rem;
+  }
+  .nav__description {
+    font-size: 0.5rem;
+  }
 }

@@ -21,3 +21,23 @@
 .contact__logo {
   margin: 2%;
 }
+
+@media screen and (max-width: 850px) {
+  /*Same but for less*/
+  .contact {
+    background-color: #1b3d47;
+    display: block;
+    padding: 7%;
+  }
+  .contact__content {
+    font-size: 1rem;
+  }
+  .contact__title {
+    font-size: 2rem;
+  }
+  .contact__logo {
+    width: 25%;
+    height: 25%;
+    margin: 2%;
+  }
+}

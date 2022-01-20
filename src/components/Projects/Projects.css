@@ -34,6 +34,24 @@
   height: 55%;
   object-fit: cover;
 }
+
+.card-body {
+  width: 100%;
+}
 .col-auto {
   margin-bottom: 4%;
+}
+@media screen and (max-width: 850px) {
+  /*Same but for less*/
+  .projects {
+    background-color: #1b3d47;
+    display: block;
+    padding: 7%;
+  }
+  .projects__content {
+    font-size: 1rem;
+  }
+  .projects__title {
+    font-size: 2rem;
+  }
 }

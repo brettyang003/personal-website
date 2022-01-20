@@ -32,3 +32,24 @@
 .skillDisparity {
   background-color: #8dafbb;
 }
+
+@media screen and (max-width: 850px) {
+  /*Same but for less*/
+  .skills {
+    background-color: #1b3d47;
+    display: block;
+    padding: 7%;
+  }
+  .skills__content {
+    font-size: 1rem;
+  }
+  .skills__title {
+    font-size: 2rem;
+  }
+  .languages {
+    font-size: 0.5rem;
+  }
+  .skillLevel {
+    font-size: 0.6rem;
+  }
+}

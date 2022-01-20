@@ -6,7 +6,10 @@ import "../Projects/Projects.css";
 import { links } from "./CardContent";
 
 const Card = (props) => {
-  const backgroundColor = { backgroundColor: `${props.color}`, width: "20rem" };
+  const backgroundColor = {
+    backgroundColor: `${props.color}`,
+  };
+
   const buttonColor = {
     backgroundColor: `${props.buttonColor}`,
     borderColor: `${props.buttonColor}`,
@@ -24,7 +27,12 @@ const Card = (props) => {
 
   return (
     <div class="card shadow-lg" style={backgroundColor}>
-      <img src={determineImage()} class="card-img-top" alt="Project" />
+      <img
+        src={determineImage()}
+        style={backgroundColor}
+        class="card-img-top"
+        alt="Project"
+      />
       <div class="card-body" style={backgroundColor}>
         <h5 class="card-title">{props.title}</h5>
         <h6 class="card-subtitle mb-2 mt-2 subtitle">{props.languages}</h6>

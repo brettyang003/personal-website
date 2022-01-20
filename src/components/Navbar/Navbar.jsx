@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
 import "./Navbar.css";
-import background from "../../assets/background.jpeg";
 import Modal from "../ResumeModal/Modal";
 
 const NavBar = (props) => {
@@ -10,28 +8,23 @@ const NavBar = (props) => {
   const handleShow = () => setShowModal(true);
 
   return (
-    <div
-      style={{ backgroundImage: `url(${background})`, zIndex: "100" }}
-      className="parent"
-    >
+    <div className="parent">
       <Modal show={showModal} handleClose={handleClose} />
-
-      <div className="row nav__content">
-        <div className="col-lg-7 align-self-center">
-          <span className="title">Hello, I'm Brett</span>
+      <div className="nav__content">
+        <div className="align-self-center">
+          <div className="nav__title">Hello, I'm Brett</div>
           <span class="input-cursor"></span>
-          <p className="description">
+
+          <div className="nav__description text-muted">
             Welcome to my personal website/portfolio! This website was made with
             HTML/CSS and React.
-          </p>
-          <button className="styling shadow-lg " onClick={handleShow}>
-            Resume
-          </button>
+          </div>
+          <div>
+            <button className="styling shadow-lg " onClick={handleShow}>
+              Resume
+            </button>
+          </div>
         </div>
-        <div
-          style={{ backgroundColor: "transparent" }}
-          className="col-lg-5"
-        ></div>
       </div>
     </div>
   );

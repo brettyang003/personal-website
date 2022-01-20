@@ -10,7 +10,7 @@ const Projects = (props) => {
       <h2 className="projects__title">Projects</h2>
 
       <div className="row justify-content-sm-center">
-        <div className="col-auto  d-flex align-items-stretch">
+        <div className="col-auto col-lg-4 col-md-6 d-flex align-items-stretch">
           <Card
             color="#637B83"
             buttonColor="#96AFB8"
@@ -20,7 +20,7 @@ const Projects = (props) => {
             title="BookMarker"
           />
         </div>
-        <div className="col-auto  d-flex align-items-stretch">
+        <div className="col-auto col-lg-4 col-md-6 d-flex align-items-stretch">
           <Card
             color="#8A7FA5"
             buttonColor="#beaee8"
@@ -30,7 +30,7 @@ const Projects = (props) => {
             title="Marketplace App"
           />
         </div>
-        <div className="col-auto d-flex align-items-stretch">
+        <div className="col-auto col-lg-4 col-md-6 d-flex align-items-stretch">
           <Card
             color="#86576E"
             buttonColor="#b27492"
